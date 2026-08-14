@@ -893,6 +893,10 @@ h1, h2, h3, h4, h5, h6 {
   .hero-subtitle {
     font-size: 15px;
   }
+
+  .logo-fixed img{ 
+    width: auto
+  }
  
 
   .btn-primary,
