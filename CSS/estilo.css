@@ -208,17 +208,7 @@ h1, h2, h3, h4, h5, h6 {
   transform: translateX(-50%);
   z-index: 10;
 }
-.logo-fixed{
-  position: absolute;
-  bottom: 80px;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 10;
 
-}
-.logo-fixed {
-  width: auto;
-}
 
 .btn-primary:hover {
   background: #D4A017;
@@ -894,9 +884,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 15px;
   }
 
-  .logo-fixed img{ 
-    width: 200px;
-  }
+  
  
 
   .btn-primary,
