@@ -201,6 +201,14 @@ h1, h2, h3, h4, h5, h6 {
   transition: background 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
+.button-fixed{
+  position: absolute;
+  bottom: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+}
+
 .btn-primary:hover {
   background: #D4A017;
   border-color: #D4A017;
