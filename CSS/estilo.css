@@ -74,6 +74,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-inner {
+  position: relative;
   width: 90%;
   max-width: 1140px;
   margin: 0 auto;
@@ -782,8 +783,34 @@ h1, h2, h3, h4, h5, h6 {
 
 /* ===================== RESPONSIVE ===================== */
 @media (max-width: 968px) {
+  .menu-hamburguer {
+    display: block;
+    position: absolute;
+    top: 12px;
+    right: 0;
+    z-index: 2;
+  }
+
   .nav-links {
     display: none;
+    float: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding: 12px 0 18px;
+    background: rgba(15, 12, 10, 0.98);
+  }
+
+  .nav-links.is-open {
+    display: block;
+  }
+
+  .nav-links a {
+    display: block;
+    margin: 0;
+    padding: 10px 0;
+    text-align: center;
   }
  
 
